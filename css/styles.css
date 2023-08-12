@@ -612,6 +612,7 @@ img {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .btn-subscribe:hover,
@@ -928,7 +929,7 @@ img {
 
 .modal-check:checked + .check-text span {
   border: none;
-  background-color: var(--color-iris);
+  background-color: var(--color-ocean);
   fill: var(--color-cloud);
 }
 
@@ -958,6 +959,7 @@ img {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .modal-btn-send:hover,
